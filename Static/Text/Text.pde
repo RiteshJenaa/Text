@@ -1,4 +1,5 @@
 String title = "BOOOOO";
+float titleX, titleY, titleWidth, titleHeight;
 //
 //Display Geometry, Display Orientation : Square (200,200), Landscape (300,400)or Portrait (400,300)
 fullScreen(); //displayWidth, displayHeight
@@ -11,6 +12,3 @@ titleHeight = displayHeight*1/8; //Rect ends at 2/10 of height
 
 //Layout out text space and typographical features
 rect(titleX, titleY, titleWidth, titleHeight);
-
-
-println("Canvas Size", width, height);
