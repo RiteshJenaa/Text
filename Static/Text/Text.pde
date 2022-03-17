@@ -27,7 +27,7 @@ rect(titleX, titleY, titleWidth, titleHeight);
 fill(green); //Ink, hexidemical copied from the colour selector
 textAlign(CENTER, CENTER); //Align the X and Y, see Processing.org / Reference
 //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
-textFont(titleFont, 30); // Change the number untils it fits
+textFont(titleFont, 120); // Change the number untils it fits
 text(title, titleX, titleY, titleWidth, titleHeight);
 fill(resetDefaultInk);
 
